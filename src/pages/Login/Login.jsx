@@ -17,7 +17,7 @@ const Login = () => {
   return (
     <div className="container">
         <form onSubmit={handleSubmit}>
-            <h1>Acesse o sistema</h1>
+            <h1>Login EVENTIFY</h1>
             <div className="input-field">
                 <input type="email" placeholder='E-mail' 
                 onChange={(e) => setUsername(e.target.value)}  />

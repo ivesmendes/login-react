@@ -1,10 +1,15 @@
 import './App.css'
-import Login from './Components/Login/Login';
+import { AnimationBackground } from './Components/AnimationBackground';
+import Login from './pages/Login/Login';
 
 function App() {
 
   return (
     <div className="App">
+      <div className="backgroundAnimation">
+        <AnimationBackground/>
+      </div>
+      
       <Login />
     </div>
   );
