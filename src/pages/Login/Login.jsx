@@ -17,7 +17,9 @@ const Login = () => {
   return (
     <div className="container">
         <form onSubmit={handleSubmit}>
-            <h1>Login EVENTIFY</h1>
+            
+            <h1>Login EVENTIFY<img src="src/assets/eventify.ico" alt="icone" width={100} height={90}/></h1>
+            
             <div className="input-field">
                 <input type="email" placeholder='E-mail' 
                 onChange={(e) => setUsername(e.target.value)}  />
